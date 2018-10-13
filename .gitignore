@@ -1,3 +1,7 @@
+Emily_Resume.pdf
+aws
+/fontawesome-free-5.3.1-web
+
 # Logs
 logs
 *.log
@@ -59,3 +63,5 @@ typings/
 
 # next.js build output
 .next
+
+dist
