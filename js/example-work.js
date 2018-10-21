@@ -29,8 +29,12 @@ class ExampleWork extends React.Component {
   render(){
       return (
         <span>
+        <br/>
+        <section className="portfolio" id="portfolio">
+        <h2 className="text-center text-secondary">Work</h2>
+        <hr className="star-dark"></hr>
+        </section>
         <section className="section section--alignCentered section--description">
-
         {this.props.work.map((example,idx) =>{
           return (
             <ExampleWorkBubble example={example} key={idx} openModal={this.openModal}/>

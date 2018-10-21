@@ -20,6 +20,11 @@
     rgb(236, 240, 241)
 */
 
+
+.error {
+  color:red;
+}
+
 .background--skyBlue {
   background-color: rgb(52, 152, 219);
 }
@@ -40,6 +45,22 @@
   color: rgb(44, 62, 80);
 }
 
+.color--white {
+  color: #ffffff;
+}
+
+.menufont {
+  display: inline;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.bodyfont{
+  font-size: 20px;
+  color: rgb(44, 62, 80);
+  text-align: left;
+}
+
 .section__example {
   background-color: rgb(44, 62, 80);
 }
@@ -51,7 +72,7 @@
 */
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
 }
 
 body {
@@ -82,11 +103,11 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 .section {
-  font-size: 4.2rem;
+  font-size: 3.2rem;
   min-height: 70vh;
   position: relative;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .section--alignCentered {
@@ -94,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section--description {
-  font-size: 2.8rem;
+  font-size: 2rem;
   padding-left: 3.5rem;
   padding-right: 3.5rem;
 }

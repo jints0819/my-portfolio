@@ -5,7 +5,7 @@
 
 **React-portfolio** is my portfolio website using below technologies.
 - AWS: IAM,Route53,S3,CloudFront,CodeBuild,CodePipeline,Lambda
-- Website Content: HTML/CSS/React/Babel/Webpack
+- Website Content: HTML/CSS/React/React Router/Babel/Webpack
 - Test: jest
 
 ## Main Feature ##
