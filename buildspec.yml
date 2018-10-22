@@ -2,8 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - npm install
-      - npm run webpack
+      -echo Nothing to do yet
 artifacts:
   files:
     - index.html
