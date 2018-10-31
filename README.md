@@ -9,7 +9,9 @@
 - Test: jest
 
 
+## DEMO Link ##
 
+http://portfolio.emilylu.s3-website-us-east-1.amazonaws.com/
 
 ## Contact info ##
 **Author:** Emily Lu
