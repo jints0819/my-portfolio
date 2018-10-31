@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -22,6 +24,15 @@ class ContactForm extends React.Component {
     this.handleNameChange = this.handleNameChange.bind(this);
     this.handleMessageChange = this.handleMessageChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  componentWillAppear(callback) {
+    callback();
+    console.log('will appear');
+  }
+
+  componentDidAppear() {
+  console.log('did appear');
   }
 
   validateName(name) {
@@ -65,6 +76,8 @@ class ContactForm extends React.Component {
     this.setState({message: message});
   }
 
+
+
   handleSubmit(e){
     e.preventDefault();
 
@@ -91,6 +104,7 @@ class ContactForm extends React.Component {
       });
   }
 
+
   render(){
     return (
       <div className="container">
@@ -100,6 +114,7 @@ class ContactForm extends React.Component {
       <hr className="star-dark"></hr>
       </section>
       <section className="section section--description">
+
       <form onSubmit={this.handleSubmit} action="mailto:emilylu840819.com" method="post">
       <div className="section__description">
       <TextInput label={"Name"} type={"text"}
@@ -110,7 +125,7 @@ class ContactForm extends React.Component {
       validate={this.validateEmail}
       handleChange={this.handleEmailChange} />
       <br/>
-      <TextAreaInput label={"Message"}
+    <TextAreaInput label={"Message"}
       validate={this.validateMessage}
       handleChange={this.handleMessageChange} />
            <input className="button" type="submit" value="Send Message" />

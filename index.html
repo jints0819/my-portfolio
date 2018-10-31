@@ -14,12 +14,23 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-
     <!-- Custom styles for this template -->
     <link href="styles/bootstrap/freelancer.css" rel="stylesheet">
 
-  </head>
+    <style type="text/css">
 
+   		.box-transition-appear {
+   		  opacity: 1;
+   		}
+
+   		.box-transition-appear.box-transition-appear-active {
+   		  opacity: 0.01;
+   		  transition: opacity 300ms ease-in;
+   		}
+
+       </style>
+  </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
   <body>
 
       <div id='menu' >
