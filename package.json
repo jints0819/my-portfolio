@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/jints0819/my-portfolio#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "mongoose": "^5.3.9",
     "react": "^16.2.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-addons-transition-group": "^15.6.2",
