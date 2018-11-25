@@ -8,7 +8,9 @@
 - Website Content: HTML/CSS/React/React Router/Babel/Webpack
 - Test: jest
 
+
 ![image](https://github.com/jints0819/my-portfolio/blob/master/web.png)
+
 
 ## Contact info ##
 **Author:** Emily Lu
